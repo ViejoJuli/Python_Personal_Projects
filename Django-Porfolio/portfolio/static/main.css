@@ -1,0 +1,12 @@
+body {
+    background: white;
+}
+
+.bg-black{
+    background: white;
+}
+
+.card-project {
+    border: 1px solid black;
+    cursor: pointer;
+}

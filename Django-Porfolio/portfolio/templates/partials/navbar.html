@@ -1,0 +1,12 @@
+{% load static %}
+<ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+        <a class="nav-link active fw-bold fst-italic" aria-current="page" href="/">JR</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'blog:posts'%}">Blog</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-primary btn-sm d-flex align-items-center" href="{% static 'portfolio/Desigualdad.pdf' %}" target="_blank">Download CV</a>
+    </li>
+</ul>
